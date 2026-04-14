@@ -43,7 +43,7 @@ hdfs dfs -rm /cloud_data_corp/gold_curated/ventas_ok.csv
 # rm: Permission denied: user=analyst, access=WRITE
 ```
 
-![Captura de permisos](Permisos_Acceso_Seguro.png.png)
+![Captura de permisos](Permisos_Acceso_Seguro.png)
 
 ---
 
@@ -77,4 +77,4 @@ hdfs dfs -put label.txt /quarantine/
 hdfs dfs -ls -R /cloud_data_corp
 ```
 
-![Árbol de directorios final](captura_arbol.png)
+![Árbol de directorios final](Estructura_Capas_HDFS.png)
